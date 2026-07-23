@@ -1532,7 +1532,7 @@
 /* VIDEO PROOF SECTION */
 .proof-section {
   background: url("../assets/image/bg123013.webp") center center / 100% 100% no-repeat;
-  padding: 48px 0 52px;
+  padding: clamp(70px, 10vw, 100px) 0 clamp(40px, 6vw, 60px);
   text-align: center;
   color: #FFF;
   margin-top: -2px;
@@ -1541,12 +1541,12 @@
 
 .proof-section h2 {
   font-family: 'DM Sans', sans-serif;
-  font-size: clamp(1.3rem, 3.5vw, 2.1rem);
+  font-size: clamp(1.2rem, 3.2vw, 2rem);
   font-weight: 900;
   margin-bottom: 24px;
-  color: #FFF;
+  color: #FFFFFF;
   letter-spacing: .5px;
-  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.18);
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.7), 0 0 15px rgba(0, 0, 0, 0.5);
   padding: 0 15px;
   word-wrap: break-word;
 }
