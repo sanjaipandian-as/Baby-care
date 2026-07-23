@@ -770,22 +770,10 @@
         </div>
 
         <div class="video-card">
-          <div class="video-facade" data-video-src-opt="assets/image/runninvideo.mp4"
-            data-video-src="assets/image/runninvideo.mp4" data-poster="assets/image/gec-video-opt-poster.webp">
-            <picture>
-              <source srcset="assets/image/gec-video-opt-poster.avif" type="image/avif">
-              <source srcset="assets/image/gec-video-opt-poster.webp" type="image/webp">
-              <picture>
-                <source srcset="assets/image/gec-video-opt-poster.avif" type="image/avif">
-                <source srcset="assets/image/gec-video-opt-poster.webp" type="image/webp">
-                <img src="assets/image/gec-video-opt-poster.png" alt="Whispering Brain Studio Video Award" width="1920"
-                  height="1080" loading="lazy" decoding="async">
-              </picture>
-            </picture>
-            <div class="video-facade-play-btn" aria-label="Play Video">
-              <div class="play-triangle"></div>
-            </div>
-          </div>
+          <video controls preload="metadata" style="width:100%; height:100%; object-fit:cover; border-radius:18px; display:block;">
+            <source src="assets/image/runninvideo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
         </div>
 
       </div>
