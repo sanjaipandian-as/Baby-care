@@ -1541,12 +1541,14 @@
 
 .proof-section h2 {
   font-family: 'DM Sans', sans-serif;
-  font-size: clamp(1.5rem, 3.5vw, 2.1rem);
+  font-size: clamp(1.3rem, 3.5vw, 2.1rem);
   font-weight: 900;
-  margin-bottom: 36px;
+  margin-bottom: 24px;
   color: #FFF;
   letter-spacing: .5px;
   text-shadow: 0 2px 6px rgba(0, 0, 0, 0.18);
+  padding: 0 15px;
+  word-wrap: break-word;
 }
 
 .proof-grid {
@@ -1555,6 +1557,7 @@
   gap: 12px;
   max-width: 900px;
   margin: 0 auto 20px;
+  padding: 0 10px;
 }
 
 @media (max-width:900px) {
@@ -1566,8 +1569,8 @@
 
 @media (max-width:480px) {
   .proof-grid {
-    grid-template-columns: repeat(1, 1fr);
-    gap: 10px
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px
   }
 }
 
