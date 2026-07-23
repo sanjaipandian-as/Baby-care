@@ -17,7 +17,9 @@
 
   <!-- Asynchronous Non-Critical CSS -->
   <link rel="preload" href="css/deferred.css" as="style" onload="this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="css/deferred.css"></noscript>
+  <noscript>
+    <link rel="stylesheet" href="css/deferred.css">
+  </noscript>
 
   <!-- Google Fonts with display=swap -->
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Forum&display=swap"
@@ -35,6 +37,7 @@
       line-gap-override: 0%;
       size-adjust: 100%;
     }
+
     @font-face {
       font-family: 'Forum Fallback';
       src: local('Georgia');
@@ -43,7 +46,11 @@
       line-gap-override: 0%;
       size-adjust: 100%;
     }
-    img, picture, video, .video-facade {
+
+    img,
+    picture,
+    video,
+    .video-facade {
       max-width: 100%;
       height: auto;
       aspect-ratio: attr(width) / attr(height);
@@ -476,7 +483,7 @@
   </style>
 
   <!-- ADVANCED DEFERRED & MULTI-BREAKPOINT CSS -->
-  
+
 </head>
 
 <body>
@@ -510,17 +517,19 @@
               <source srcset="assets/image/hero-card.avif" type="image/avif">
               <source srcset="assets/image/hero-card.webp" type="image/webp">
               <picture>
-        <source srcset="assets/image/hero-card.avif" type="image/avif">
-        <source srcset="assets/image/hero-card.webp" type="image/webp">
-        <img src="assets/image/hero-card.png" alt="You Can Decide What You Fill Your Child With."  width="1024" height="682" loading="eager" fetchpriority="high" decoding="async">
-      </picture>
+                <source srcset="assets/image/hero-card.avif" type="image/avif">
+                <source srcset="assets/image/hero-card.webp" type="image/webp">
+                <img src="assets/image/hero-card.png" alt="You Can Decide What You Fill Your Child With." width="1024"
+                  height="682" loading="eager" fetchpriority="high" decoding="async">
+              </picture>
             </picture>
             <div class="price-badge-overlay">
               <picture>
-        <source srcset="assets/image/bg123015.avif" type="image/avif">
-        <source srcset="assets/image/bg123015.webp" type="image/webp">
-        <img src="assets/image/bg123015.png" alt="Only ₹99 100% Money Back Guarantee"  width="500" height="500" loading="eager" fetchpriority="high" decoding="async">
-      </picture>
+                <source srcset="assets/image/bg123015.avif" type="image/avif">
+                <source srcset="assets/image/bg123015.webp" type="image/webp">
+                <img src="assets/image/bg123015.png" alt="Only ₹99 100% Money Back Guarantee" width="500" height="500"
+                  loading="eager" fetchpriority="high" decoding="async">
+              </picture>
             </div>
           </div>
 
@@ -632,10 +641,11 @@
               <source srcset="assets/image/award-plaque.avif" type="image/avif">
               <source srcset="assets/image/award-plaque.webp" type="image/webp">
               <picture>
-        <source srcset="assets/image/award-plaque.avif" type="image/avif">
-        <source srcset="assets/image/award-plaque.webp" type="image/webp">
-        <img src="assets/image/award-plaque.png" alt="GEC Award Plaque"  width="615" height="645" loading="lazy" decoding="async">
-      </picture>
+                <source srcset="assets/image/award-plaque.avif" type="image/avif">
+                <source srcset="assets/image/award-plaque.webp" type="image/webp">
+                <img src="assets/image/award-plaque.png" alt="GEC Award Plaque" width="615" height="645" loading="lazy"
+                  decoding="async">
+              </picture>
             </picture>
           </div>
           <h3>WHISPERING BRAIN KIDS STUDIO</h3>
@@ -648,15 +658,17 @@
         </div>
 
         <div class="video-card">
-          <div class="video-facade" data-video-src-opt="assets/image/gec-video-opt.mp4" data-video-src="assets/image/gec-video.mp4" data-poster="assets/image/gec-video-opt-poster.webp">
+          <div class="video-facade" data-video-src-opt="assets/image/gec-video-opt.mp4"
+            data-video-src="assets/image/gec-video.mp4" data-poster="assets/image/gec-video-opt-poster.webp">
             <picture>
               <source srcset="assets/image/gec-video-opt-poster.avif" type="image/avif">
               <source srcset="assets/image/gec-video-opt-poster.webp" type="image/webp">
               <picture>
-        <source srcset="assets/image/gec-video-opt-poster.avif" type="image/avif">
-        <source srcset="assets/image/gec-video-opt-poster.webp" type="image/webp">
-        <img src="assets/image/gec-video-opt-poster.png" alt="Whispering Brain Studio Video Award"  width="1920" height="1080" loading="lazy" decoding="async">
-      </picture>
+                <source srcset="assets/image/gec-video-opt-poster.avif" type="image/avif">
+                <source srcset="assets/image/gec-video-opt-poster.webp" type="image/webp">
+                <img src="assets/image/gec-video-opt-poster.png" alt="Whispering Brain Studio Video Award" width="1920"
+                  height="1080" loading="lazy" decoding="async">
+              </picture>
             </picture>
             <div class="video-facade-play-btn" aria-label="Play Video">
               <div class="play-triangle"></div>
@@ -778,14 +790,15 @@
     <div class="container">
       <div class="tools-card-container">
         <picture>
-              <source srcset="assets/image/tools-infographic.avif" type="image/avif">
-              <source srcset="assets/image/tools-infographic.webp" type="image/webp">
-              <picture>
-        <source srcset="assets/image/tools-infographic.avif" type="image/avif">
-        <source srcset="assets/image/tools-infographic.webp" type="image/webp">
-        <img src="assets/image/tools-infographic.png" alt="Star Kid Activation Workshop - 39 Tools Infographic"  width="800" height="800" loading="lazy" decoding="async">
-      </picture>
-            </picture>
+          <source srcset="assets/image/tools-infographic.avif" type="image/avif">
+          <source srcset="assets/image/tools-infographic.webp" type="image/webp">
+          <picture>
+            <source srcset="assets/image/tools-infographic.avif" type="image/avif">
+            <source srcset="assets/image/tools-infographic.webp" type="image/webp">
+            <img src="assets/image/tools-infographic.png" alt="Star Kid Activation Workshop - 39 Tools Infographic"
+              width="800" height="800" loading="lazy" decoding="async">
+          </picture>
+        </picture>
       </div>
 
       <div style="max-width: 500px; margin: 24px auto 0;">
@@ -808,14 +821,15 @@
 
         <div class="whatsapp-gift-card">
           <picture>
+            <source srcset="assets/image/whatsapp-gift.avif" type="image/avif">
+            <source srcset="assets/image/whatsapp-gift.webp" type="image/webp">
+            <picture>
               <source srcset="assets/image/whatsapp-gift.avif" type="image/avif">
               <source srcset="assets/image/whatsapp-gift.webp" type="image/webp">
-              <picture>
-        <source srcset="assets/image/whatsapp-gift.avif" type="image/avif">
-        <source srcset="assets/image/whatsapp-gift.webp" type="image/webp">
-        <img src="assets/image/whatsapp-gift.png" alt="Extra Gift Before your Actual Class Begins"  width="768" height="768" loading="lazy" decoding="async">
-      </picture>
+              <img src="assets/image/whatsapp-gift.png" alt="Extra Gift Before your Actual Class Begins" width="768"
+                height="768" loading="lazy" decoding="async">
             </picture>
+          </picture>
         </div>
 
         <div class="yellow-top-alert-card">
@@ -836,6 +850,107 @@
   </section>
 
   <!-- PRICING PLANS -->
+  <!-- WHAT PARENTS SAY ABOUT US (REVIEWS SECTION) -->
+  <section class="reviews-yellow-section">
+    <div class="container">
+      <h2 class="reviews-header-title">WHAT PARENTS SAY ABOUT US</h2>
+    </div>
+    <div class="reviews-yellow-wrapper">
+      <div class="reviews-carousel-track" id="reviewsCarouselTrack">
+        <!-- Slide 1 (Cards 1 to 4) -->
+        <div class="reviews-slide active">
+          <div class="reviews-cards-grid">
+            <div class="review-card-item">
+              <img src="assets/image/Review1.webp" alt="Review 1" width="540" height="1170" loading="lazy" decoding="async">
+            </div>
+            <div class="review-card-item">
+              <img src="assets/image/Review2.webp" alt="Review 2" width="540" height="1170" loading="lazy" decoding="async">
+            </div>
+            <div class="review-card-item">
+              <img src="assets/image/Review3.webp" alt="Review 3" width="540" height="1170" loading="lazy" decoding="async">
+            </div>
+            <div class="review-card-item">
+              <img src="assets/image/Review4.webp" alt="Review 4" width="540" height="1170" loading="lazy" decoding="async">
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 (Cards 5 to 8) -->
+        <div class="reviews-slide">
+          <div class="reviews-cards-grid">
+            <div class="review-card-item">
+              <img src="assets/image/Review5.webp" alt="Review 5" width="540" height="1170" loading="lazy" decoding="async">
+            </div>
+            <div class="review-card-item">
+              <img src="assets/image/Review6.webp" alt="Review 6" width="540" height="1170" loading="lazy" decoding="async">
+            </div>
+            <div class="review-card-item">
+              <img src="assets/image/Review7.webp" alt="Review 7" width="540" height="1170" loading="lazy" decoding="async">
+            </div>
+            <div class="review-card-item">
+              <img src="assets/image/Review8.webp" alt="Review 8" width="540" height="1170" loading="lazy" decoding="async">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pagination Dots -->
+      <div class="reviews-dots" id="reviewsDots">
+        <span class="dot active" onclick="switchReviewSlide(0)"></span>
+        <span class="dot" onclick="switchReviewSlide(1)"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECOND REVIEWS SECTION (Review01 - Review08) -->
+  <section class="reviews-yellow-section" style="padding-top: 0; margin-top: 5px;">
+    <div class="reviews-yellow-wrapper">
+      <div class="reviews-carousel-track" id="reviewsCarouselTrack2">
+        <!-- Slide 1 (Cards 01 to 04) -->
+        <div class="reviews-slide active">
+          <div class="reviews-cards-grid">
+            <div class="review-card-item">
+              <img src="assets/image/Review01.webp" alt="Review 01" width="540" height="1170" loading="lazy" decoding="async">
+            </div>
+            <div class="review-card-item">
+              <img src="assets/image/Review02.webp" alt="Review 02" width="540" height="1170" loading="lazy" decoding="async">
+            </div>
+            <div class="review-card-item">
+              <img src="assets/image/Review03.webp" alt="Review 03" width="540" height="1170" loading="lazy" decoding="async">
+            </div>
+            <div class="review-card-item">
+              <img src="assets/image/Review04.webp" alt="Review 04" width="540" height="1170" loading="lazy" decoding="async">
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 (Cards 05 to 08) -->
+        <div class="reviews-slide">
+          <div class="reviews-cards-grid">
+            <div class="review-card-item">
+              <img src="assets/image/Review05.webp" alt="Review 05" width="540" height="1170" loading="lazy" decoding="async">
+            </div>
+            <div class="review-card-item">
+              <img src="assets/image/Review06.webp" alt="Review 06" width="540" height="1170" loading="lazy" decoding="async">
+            </div>
+            <div class="review-card-item">
+              <img src="assets/image/Review07.webp" alt="Review 07" width="540" height="1170" loading="lazy" decoding="async">
+            </div>
+            <div class="review-card-item">
+              <img src="assets/image/Review08.webp" alt="Review 08" width="540" height="1170" loading="lazy" decoding="async">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pagination Dots -->
+      <div class="reviews-dots" id="reviewsDots2">
+        <span class="dot active" onclick="switchReviewSlide2(0)"></span>
+        <span class="dot" onclick="switchReviewSlide2(1)"></span>
+      </div>
+    </div>
+  </section>
+
   <section class="pricing-section" id="plans">
     <div class="container">
       <div class="pricing-header-titles">
@@ -921,7 +1036,6 @@
               <li>Back Pain Relief Kit – Gentle Routines for Moms</li>
               <li>101 - Mistakes to Avoid for a Healthy, Happy Baby</li>
               <li class="item-video">[Video Course] When Your Baby Cries: Simple Ways to Calm Them</li>
-              <li>Smart Guide to Over-Come Pregnancy Cravings</li>
               <li class="item-video">Easy Daily Routine for Your Newborn's Care</li>
               <li>7 steps to help your newborn sleep well</li>
               <li>pregnancy nutrition guide</li>
@@ -945,32 +1059,6 @@
     </div>
   </section>
 
-  <!-- REVIEWS SECTION -->
-  <section class="reviews-yellow-section">
-    <h2 class="reviews-header-title">What Parents Say About Us</h2>
-    <div class="reviews-images-container">
-      <picture>
-              <source srcset="assets/image/reviews-1.avif" type="image/avif">
-              <source srcset="assets/image/reviews-1.webp" type="image/webp">
-              <picture>
-        <source srcset="assets/image/reviews-1.avif" type="image/avif">
-        <source srcset="assets/image/reviews-1.webp" type="image/webp">
-        <img src="assets/image/reviews-1.png" alt="What Parents Say About Us - Google Reviews" class="review-banner-img" width="1826" height="971" loading="lazy" decoding="async">
-      </picture>
-            </picture>
-      <picture>
-              <source srcset="assets/image/reviews-2.avif" type="image/avif">
-              <source srcset="assets/image/reviews-2.webp" type="image/webp">
-              <picture>
-        <source srcset="assets/image/reviews-2.avif" type="image/avif">
-        <source srcset="assets/image/reviews-2.webp" type="image/webp">
-        <img src="assets/image/reviews-2.png" alt="What Parents Say About Us - WhatsApp Feedback" class="review-banner-img" width="1835" height="1002" loading="lazy" decoding="async">
-      </picture>
-            </picture>
-    </div>
-  </section>
-
-  <!-- TRANSFORM & BRAIN ARCHITECTURE SECTION -->
   <div style="max-width: 400px; margin: 20px auto 5px;">
     <a href="#plans" class="cta-yellow-button">
       <span class="cta-btn-main">Register Now @ 99</span>
@@ -978,6 +1066,7 @@
     </a>
   </div>
 
+  <!-- TRANSFORM & BRAIN ARCHITECTURE SECTION -->
   <section class="transform-brain-section">
     <div class="container">
       <h2 class="transform-section-title">
@@ -987,14 +1076,15 @@
       <div class="transform-cols">
         <div class="transform-left-graphic">
           <picture>
+            <source srcset="assets/image/brain-architecture.avif" type="image/avif">
+            <source srcset="assets/image/brain-architecture.webp" type="image/webp">
+            <picture>
               <source srcset="assets/image/brain-architecture.avif" type="image/avif">
               <source srcset="assets/image/brain-architecture.webp" type="image/webp">
-              <picture>
-        <source srcset="assets/image/brain-architecture.avif" type="image/avif">
-        <source srcset="assets/image/brain-architecture.webp" type="image/webp">
-        <img src="assets/image/brain-architecture.png" alt="Healthy Brain Architecture of your Baby"  width="266" height="266" loading="lazy" decoding="async">
-      </picture>
+              <img src="assets/image/brain-architecture.png" alt="Healthy Brain Architecture of your Baby" width="266"
+                height="266" loading="lazy" decoding="async">
             </picture>
+          </picture>
         </div>
 
         <div class="transform-right-points">
@@ -1067,14 +1157,16 @@
       <h2 class="comparison-title">Without SKA Method™ And With SKA Method™</h2>
       <div class="chart-box-container">
         <picture>
-              <source srcset="assets/image/Add-a-subheading-1536x768.avif" type="image/avif">
-              <source srcset="assets/image/Add-a-subheading-1536x768.webp" type="image/webp">
-              <picture>
-        <source srcset="assets/image/Add-a-subheading-1536x768.avif" type="image/avif">
-        <source srcset="assets/image/Add-a-subheading-1536x768.webp" type="image/webp">
-        <img src="assets/image/Add-a-subheading-1536x768.png" alt="Without SKA Method vs With SKA Method Growth Curve Chart"  width="800" height="400" loading="lazy" decoding="async">
-      </picture>
-            </picture>
+          <source srcset="assets/image/Add-a-subheading-1536x768.avif" type="image/avif">
+          <source srcset="assets/image/Add-a-subheading-1536x768.webp" type="image/webp">
+          <picture>
+            <source srcset="assets/image/Add-a-subheading-1536x768.avif" type="image/avif">
+            <source srcset="assets/image/Add-a-subheading-1536x768.webp" type="image/webp">
+            <img src="assets/image/Add-a-subheading-1536x768.png"
+              alt="Without SKA Method vs With SKA Method Growth Curve Chart" width="800" height="400" loading="lazy"
+              decoding="async">
+          </picture>
+        </picture>
       </div>
 
       <div class="comparison-explanation-text">
@@ -1099,10 +1191,11 @@
               <source srcset="assets/image/day1-womb.avif" type="image/avif">
               <source srcset="assets/image/day1-womb.webp" type="image/webp">
               <picture>
-        <source srcset="assets/image/day1-womb.avif" type="image/avif">
-        <source srcset="assets/image/day1-womb.webp" type="image/webp">
-        <img src="assets/image/day1-womb.png" alt="Day 1 - Unlocking Your Baby's Genius Brain Power & IQ"  width="545" height="671" loading="lazy" decoding="async">
-      </picture>
+                <source srcset="assets/image/day1-womb.avif" type="image/avif">
+                <source srcset="assets/image/day1-womb.webp" type="image/webp">
+                <img src="assets/image/day1-womb.png" alt="Day 1 - Unlocking Your Baby's Genius Brain Power & IQ"
+                  width="545" height="671" loading="lazy" decoding="async">
+              </picture>
             </picture>
           </div>
           <div class="day-badge-title">Day 1</div>
@@ -1139,10 +1232,11 @@
               <source srcset="assets/image/day2-baby.avif" type="image/avif">
               <source srcset="assets/image/day2-baby.webp" type="image/webp">
               <picture>
-        <source srcset="assets/image/day2-baby.avif" type="image/avif">
-        <source srcset="assets/image/day2-baby.webp" type="image/webp">
-        <img src="assets/image/day2-baby.png" alt="Day 2 - SKA Method for Deep Bonding & Emotional Intelligence"  width="545" height="671" loading="lazy" decoding="async">
-      </picture>
+                <source srcset="assets/image/day2-baby.avif" type="image/avif">
+                <source srcset="assets/image/day2-baby.webp" type="image/webp">
+                <img src="assets/image/day2-baby.png" alt="Day 2 - SKA Method for Deep Bonding & Emotional Intelligence"
+                  width="545" height="671" loading="lazy" decoding="async">
+              </picture>
             </picture>
           </div>
           <div class="day-badge-title">Day 2</div>
@@ -1188,10 +1282,11 @@
               <source srcset="assets/image/day3-strength.avif" type="image/avif">
               <source srcset="assets/image/day3-strength.webp" type="image/webp">
               <picture>
-        <source srcset="assets/image/day3-strength.avif" type="image/avif">
-        <source srcset="assets/image/day3-strength.webp" type="image/webp">
-        <img src="assets/image/day3-strength.png" alt="Day 3 - Supercharging PQ"  width="545" height="671" loading="lazy" decoding="async">
-      </picture>
+                <source srcset="assets/image/day3-strength.avif" type="image/avif">
+                <source srcset="assets/image/day3-strength.webp" type="image/webp">
+                <img src="assets/image/day3-strength.png" alt="Day 3 - Supercharging PQ" width="545" height="671"
+                  loading="lazy" decoding="async">
+              </picture>
             </picture>
           </div>
           <div class="day-badge-title">Day 3</div>
@@ -1237,10 +1332,11 @@
               <source srcset="assets/image/day4-baby-blue.avif" type="image/avif">
               <source srcset="assets/image/day4-baby-blue.webp" type="image/webp">
               <picture>
-        <source srcset="assets/image/day4-baby-blue.avif" type="image/avif">
-        <source srcset="assets/image/day4-baby-blue.webp" type="image/webp">
-        <img src="assets/image/day4-baby-blue.png" alt="Day 4 - Hypnobirthing & Pelvic Power"  width="829" height="1043" loading="lazy" decoding="async">
-      </picture>
+                <source srcset="assets/image/day4-baby-blue.avif" type="image/avif">
+                <source srcset="assets/image/day4-baby-blue.webp" type="image/webp">
+                <img src="assets/image/day4-baby-blue.png" alt="Day 4 - Hypnobirthing & Pelvic Power" width="829"
+                  height="1043" loading="lazy" decoding="async">
+              </picture>
             </picture>
           </div>
           <div class="day-badge-title">Day 4</div>
@@ -1282,10 +1378,11 @@
               <source srcset="assets/image/day5-strength-red.avif" type="image/avif">
               <source srcset="assets/image/day5-strength-red.webp" type="image/webp">
               <picture>
-        <source srcset="assets/image/day5-strength-red.avif" type="image/avif">
-        <source srcset="assets/image/day5-strength-red.webp" type="image/webp">
-        <img src="assets/image/day5-strength-red.png" alt="Day 5 - Manifesting Your Dream Baby"  width="867" height="1087" loading="lazy" decoding="async">
-      </picture>
+                <source srcset="assets/image/day5-strength-red.avif" type="image/avif">
+                <source srcset="assets/image/day5-strength-red.webp" type="image/webp">
+                <img src="assets/image/day5-strength-red.png" alt="Day 5 - Manifesting Your Dream Baby" width="867"
+                  height="1087" loading="lazy" decoding="async">
+              </picture>
             </picture>
           </div>
           <div class="day-badge-title">Day 5</div>
@@ -1343,10 +1440,11 @@
               <source srcset="assets/image/why-icon1.avif" type="image/avif">
               <source srcset="assets/image/why-icon1.webp" type="image/webp">
               <picture>
-        <source srcset="assets/image/why-icon1.avif" type="image/avif">
-        <source srcset="assets/image/why-icon1.webp" type="image/webp">
-        <img src="assets/image/why-icon1.png" alt="Window of Opportunities"  width="125" height="115" loading="lazy" decoding="async">
-      </picture>
+                <source srcset="assets/image/why-icon1.avif" type="image/avif">
+                <source srcset="assets/image/why-icon1.webp" type="image/webp">
+                <img src="assets/image/why-icon1.png" alt="Window of Opportunities" width="125" height="115"
+                  loading="lazy" decoding="async">
+              </picture>
             </picture>
           </div>
           <div class="why-underline"></div>
@@ -1358,10 +1456,11 @@
               <source srcset="assets/image/why-icon2.avif" type="image/avif">
               <source srcset="assets/image/why-icon2.webp" type="image/webp">
               <picture>
-        <source srcset="assets/image/why-icon2.avif" type="image/avif">
-        <source srcset="assets/image/why-icon2.webp" type="image/webp">
-        <img src="assets/image/why-icon2.png" alt="Increase Brain Synapsis"  width="125" height="115" loading="lazy" decoding="async">
-      </picture>
+                <source srcset="assets/image/why-icon2.avif" type="image/avif">
+                <source srcset="assets/image/why-icon2.webp" type="image/webp">
+                <img src="assets/image/why-icon2.png" alt="Increase Brain Synapsis" width="125" height="115"
+                  loading="lazy" decoding="async">
+              </picture>
             </picture>
           </div>
           <div class="why-underline"></div>
@@ -1373,10 +1472,11 @@
               <source srcset="assets/image/why-icon3.avif" type="image/avif">
               <source srcset="assets/image/why-icon3.webp" type="image/webp">
               <picture>
-        <source srcset="assets/image/why-icon3.avif" type="image/avif">
-        <source srcset="assets/image/why-icon3.webp" type="image/webp">
-        <img src="assets/image/why-icon3.png" alt="Epigenetic Influence"  width="125" height="115" loading="lazy" decoding="async">
-      </picture>
+                <source srcset="assets/image/why-icon3.avif" type="image/avif">
+                <source srcset="assets/image/why-icon3.webp" type="image/webp">
+                <img src="assets/image/why-icon3.png" alt="Epigenetic Influence" width="125" height="115" loading="lazy"
+                  decoding="async">
+              </picture>
             </picture>
           </div>
           <div class="why-underline"></div>
@@ -1388,10 +1488,11 @@
               <source srcset="assets/image/why-icon4.avif" type="image/avif">
               <source srcset="assets/image/why-icon4.webp" type="image/webp">
               <picture>
-        <source srcset="assets/image/why-icon4.avif" type="image/avif">
-        <source srcset="assets/image/why-icon4.webp" type="image/webp">
-        <img src="assets/image/why-icon4.png" alt="Foundation for Skill Development"  width="125" height="115" loading="lazy" decoding="async">
-      </picture>
+                <source srcset="assets/image/why-icon4.avif" type="image/avif">
+                <source srcset="assets/image/why-icon4.webp" type="image/webp">
+                <img src="assets/image/why-icon4.png" alt="Foundation for Skill Development" width="125" height="115"
+                  loading="lazy" decoding="async">
+              </picture>
             </picture>
           </div>
           <div class="why-underline"></div>
@@ -1403,10 +1504,11 @@
               <source srcset="assets/image/why-icon5.avif" type="image/avif">
               <source srcset="assets/image/why-icon5.webp" type="image/webp">
               <picture>
-        <source srcset="assets/image/why-icon5.avif" type="image/avif">
-        <source srcset="assets/image/why-icon5.webp" type="image/webp">
-        <img src="assets/image/why-icon5.png" alt="Subconscious Learning"  width="125" height="115" loading="lazy" decoding="async">
-      </picture>
+                <source srcset="assets/image/why-icon5.avif" type="image/avif">
+                <source srcset="assets/image/why-icon5.webp" type="image/webp">
+                <img src="assets/image/why-icon5.png" alt="Subconscious Learning" width="125" height="115"
+                  loading="lazy" decoding="async">
+              </picture>
             </picture>
           </div>
           <div class="why-underline"></div>
@@ -1415,14 +1517,15 @@
 
       <div class="star-graphic-box">
         <picture>
-              <source srcset="assets/image/bgg12308.avif" type="image/avif">
-              <source srcset="assets/image/bgg12308.webp" type="image/webp">
-              <picture>
-        <source srcset="assets/image/bgg12308.avif" type="image/avif">
-        <source srcset="assets/image/bgg12308.webp" type="image/webp">
-        <img src="assets/image/bgg12308.png" alt="Implement the Star Kid Activation Strategy Graphic"  width="800" height="622" loading="lazy" decoding="async">
-      </picture>
-            </picture>
+          <source srcset="assets/image/bgg12308.avif" type="image/avif">
+          <source srcset="assets/image/bgg12308.webp" type="image/webp">
+          <picture>
+            <source srcset="assets/image/bgg12308.avif" type="image/avif">
+            <source srcset="assets/image/bgg12308.webp" type="image/webp">
+            <img src="assets/image/bgg12308.png" alt="Implement the Star Kid Activation Strategy Graphic" width="800"
+              height="622" loading="lazy" decoding="async">
+          </picture>
+        </picture>
       </div>
     </div>
   </section>
@@ -1439,10 +1542,11 @@
               <source srcset="assets/image/achievement-1.avif" type="image/avif">
               <source srcset="assets/image/achievement-1.webp" type="image/webp">
               <picture>
-        <source srcset="assets/image/achievement-1.avif" type="image/avif">
-        <source srcset="assets/image/achievement-1.webp" type="image/webp">
-        <img src="assets/image/achievement-1.png" alt="Star Kid Achievement 1"  width="208" height="208" loading="lazy" decoding="async">
-      </picture>
+                <source srcset="assets/image/achievement-1.avif" type="image/avif">
+                <source srcset="assets/image/achievement-1.webp" type="image/webp">
+                <img src="assets/image/achievement-1.png" alt="Star Kid Achievement 1" width="208" height="208"
+                  loading="lazy" decoding="async">
+              </picture>
             </picture>
           </div>
           <div class="achievement-card">
@@ -1450,10 +1554,11 @@
               <source srcset="assets/image/achievement-2.avif" type="image/avif">
               <source srcset="assets/image/achievement-2.webp" type="image/webp">
               <picture>
-        <source srcset="assets/image/achievement-2.avif" type="image/avif">
-        <source srcset="assets/image/achievement-2.webp" type="image/webp">
-        <img src="assets/image/achievement-2.png" alt="Star Kid Achievement 2"  width="208" height="208" loading="lazy" decoding="async">
-      </picture>
+                <source srcset="assets/image/achievement-2.avif" type="image/avif">
+                <source srcset="assets/image/achievement-2.webp" type="image/webp">
+                <img src="assets/image/achievement-2.png" alt="Star Kid Achievement 2" width="208" height="208"
+                  loading="lazy" decoding="async">
+              </picture>
             </picture>
           </div>
           <div class="achievement-card">
@@ -1461,10 +1566,11 @@
               <source srcset="assets/image/achievement-3.avif" type="image/avif">
               <source srcset="assets/image/achievement-3.webp" type="image/webp">
               <picture>
-        <source srcset="assets/image/achievement-3.avif" type="image/avif">
-        <source srcset="assets/image/achievement-3.webp" type="image/webp">
-        <img src="assets/image/achievement-3.png" alt="Star Kid Achievement 3"  width="208" height="208" loading="lazy" decoding="async">
-      </picture>
+                <source srcset="assets/image/achievement-3.avif" type="image/avif">
+                <source srcset="assets/image/achievement-3.webp" type="image/webp">
+                <img src="assets/image/achievement-3.png" alt="Star Kid Achievement 3" width="208" height="208"
+                  loading="lazy" decoding="async">
+              </picture>
             </picture>
           </div>
         </div>
@@ -1751,14 +1857,15 @@
 
       <div class="supermom-card-container">
         <picture>
-              <source srcset="assets/image/pregnant-skateboarder.avif" type="image/avif">
-              <source srcset="assets/image/pregnant-skateboarder.webp" type="image/webp">
-              <picture>
-        <source srcset="assets/image/pregnant-skateboarder.avif" type="image/avif">
-        <source srcset="assets/image/pregnant-skateboarder.webp" type="image/webp">
-        <img src="assets/image/pregnant-skateboarder.png" alt="From Pregnant to Supermom"  width="1024" height="376" loading="lazy" decoding="async">
-      </picture>
-            </picture>
+          <source srcset="assets/image/pregnant-skateboarder.avif" type="image/avif">
+          <source srcset="assets/image/pregnant-skateboarder.webp" type="image/webp">
+          <picture>
+            <source srcset="assets/image/pregnant-skateboarder.avif" type="image/avif">
+            <source srcset="assets/image/pregnant-skateboarder.webp" type="image/webp">
+            <img src="assets/image/pregnant-skateboarder.png" alt="From Pregnant to Supermom" width="1024" height="376"
+              loading="lazy" decoding="async">
+          </picture>
+        </picture>
       </div>
     </div>
   </section>
@@ -1770,10 +1877,11 @@
       <p>This is a one-time chance. Book now and secure their best start before it's too late!</p>
       <div class="golden-card-graphic">
         <picture>
-        <source srcset="assets/image/bg123011.avif" type="image/avif">
-        <source srcset="assets/image/bg123011.webp" type="image/webp">
-        <img src="assets/image/bg123011.png" alt="Don't Let Your Child Lose Their Golden Abilities Graphic"  width="655" height="381" loading="lazy" decoding="async">
-      </picture>
+          <source srcset="assets/image/bg123011.avif" type="image/avif">
+          <source srcset="assets/image/bg123011.webp" type="image/webp">
+          <img src="assets/image/bg123011.png" alt="Don't Let Your Child Lose Their Golden Abilities Graphic"
+            width="655" height="381" loading="lazy" decoding="async">
+        </picture>
       </div>
 
       <div style="max-width: 400px; margin: 0 auto;">
@@ -2107,14 +2215,15 @@
       <div class="plan-new-grid">
         <div class="plan-new-card">
           <picture>
+            <source srcset="assets/image/plan-step1.avif" type="image/avif">
+            <source srcset="assets/image/plan-step1.webp" type="image/webp">
+            <picture>
               <source srcset="assets/image/plan-step1.avif" type="image/avif">
               <source srcset="assets/image/plan-step1.webp" type="image/webp">
-              <picture>
-        <source srcset="assets/image/plan-step1.avif" type="image/avif">
-        <source srcset="assets/image/plan-step1.webp" type="image/webp">
-        <img src="assets/image/plan-step1.png" alt="Step 1 : Start In The Womb"  width="232" height="170" loading="lazy" decoding="async">
-      </picture>
+              <img src="assets/image/plan-step1.png" alt="Step 1 : Start In The Womb" width="232" height="170"
+                loading="lazy" decoding="async">
             </picture>
+          </picture>
           <h4 class="plan-step-title"><span class="step-lbl">Step 1 : </span><span class="step-text">Start In The
               Womb</span></h4>
           <p>Begin your parenting journey early with our Four Step Star kid activation framework, offering detailed
@@ -2123,14 +2232,15 @@
 
         <div class="plan-new-card">
           <picture>
+            <source srcset="assets/image/plan-step2.avif" type="image/avif">
+            <source srcset="assets/image/plan-step2.webp" type="image/webp">
+            <picture>
               <source srcset="assets/image/plan-step2.avif" type="image/avif">
               <source srcset="assets/image/plan-step2.webp" type="image/webp">
-              <picture>
-        <source srcset="assets/image/plan-step2.avif" type="image/avif">
-        <source srcset="assets/image/plan-step2.webp" type="image/webp">
-        <img src="assets/image/plan-step2.png" alt="Step 2 : Enhance Your Babies Genes"  width="232" height="170" loading="lazy" decoding="async">
-      </picture>
+              <img src="assets/image/plan-step2.png" alt="Step 2 : Enhance Your Babies Genes" width="232" height="170"
+                loading="lazy" decoding="async">
             </picture>
+          </picture>
           <h4 class="plan-step-title"><span class="step-lbl">Step 2 : </span><span class="step-text">Enhance Your Babies
               Genes</span></h4>
           <p>Boost your baby's brain, emotions, character, and health with simple daily activities. Follow our
@@ -2139,14 +2249,15 @@
 
         <div class="plan-new-card">
           <picture>
+            <source srcset="assets/image/plan-step3.avif" type="image/avif">
+            <source srcset="assets/image/plan-step3.webp" type="image/webp">
+            <picture>
               <source srcset="assets/image/plan-step3.avif" type="image/avif">
               <source srcset="assets/image/plan-step3.webp" type="image/webp">
-              <picture>
-        <source srcset="assets/image/plan-step3.avif" type="image/avif">
-        <source srcset="assets/image/plan-step3.webp" type="image/webp">
-        <img src="assets/image/plan-step3.png" alt="Step 3 : Maximize Potentials"  width="232" height="170" loading="lazy" decoding="async">
-      </picture>
+              <img src="assets/image/plan-step3.png" alt="Step 3 : Maximize Potentials" width="232" height="170"
+                loading="lazy" decoding="async">
             </picture>
+          </picture>
           <h4 class="plan-step-title"><span class="step-lbl">Step 3 : </span><span class="step-text">Maximize
               Potentials</span></h4>
           <p>Enjoy the lifelong benefits of a head start in life and gain confidence as a mother, knowing you're
@@ -2244,6 +2355,75 @@
           this.appendChild(iframe);
         });
       });
+
+      // Auto-Rotating Reviews Carousel (Changes every 3 seconds)
+      let currentReviewIndex = 0;
+      const reviewSlides = document.querySelectorAll("#reviewsCarouselTrack .reviews-slide");
+      const reviewDots = document.querySelectorAll("#reviewsDots .dot");
+      let reviewTimer = null;
+
+      window.switchReviewSlide = function(index) {
+        if (!reviewSlides.length) return;
+        currentReviewIndex = index;
+        reviewSlides.forEach((slide, idx) => {
+          if (idx === index) {
+            slide.classList.add("active");
+          } else {
+            slide.classList.remove("active");
+          }
+        });
+        reviewDots.forEach((dot, idx) => {
+          if (idx === index) {
+            dot.classList.add("active");
+          } else {
+            dot.classList.remove("active");
+          }
+        });
+      };
+
+      function startReviewAutoSlide() {
+        if (!reviewSlides.length) return;
+        reviewTimer = setInterval(function () {
+          currentReviewIndex = (currentReviewIndex + 1) % reviewSlides.length;
+          window.switchReviewSlide(currentReviewIndex);
+        }, 3000);
+      }
+
+      startReviewAutoSlide();
+
+      // Second Auto-Rotating Reviews Carousel (Review01 - Review08)
+      let currentReviewIndex2 = 0;
+      const reviewSlides2 = document.querySelectorAll("#reviewsCarouselTrack2 .reviews-slide");
+      const reviewDots2 = document.querySelectorAll("#reviewsDots2 .dot");
+
+      window.switchReviewSlide2 = function(index) {
+        if (!reviewSlides2.length) return;
+        currentReviewIndex2 = index;
+        reviewSlides2.forEach((slide, idx) => {
+          if (idx === index) {
+            slide.classList.add("active");
+          } else {
+            slide.classList.remove("active");
+          }
+        });
+        reviewDots2.forEach((dot, idx) => {
+          if (idx === index) {
+            dot.classList.add("active");
+          } else {
+            dot.classList.remove("active");
+          }
+        });
+      };
+
+      function startReviewAutoSlide2() {
+        if (!reviewSlides2.length) return;
+        setInterval(function () {
+          currentReviewIndex2 = (currentReviewIndex2 + 1) % reviewSlides2.length;
+          window.switchReviewSlide2(currentReviewIndex2);
+        }, 3000);
+      }
+
+      startReviewAutoSlide2();
     });
   </script>
   <script src="js/video-facade.js" defer></script>
