@@ -1,0 +1,578 @@
+{
+  "achievement-1.png": {
+    "width": 208,
+    "height": 208
+  },
+  "achievement-1.webp": {
+    "width": 208,
+    "height": 208
+  },
+  "achievement-1.avif": {
+    "width": 208,
+    "height": 208
+  },
+  "achievement-2.png": {
+    "width": 208,
+    "height": 208
+  },
+  "achievement-2.webp": {
+    "width": 208,
+    "height": 208
+  },
+  "achievement-2.avif": {
+    "width": 208,
+    "height": 208
+  },
+  "achievement-3.png": {
+    "width": 208,
+    "height": 208
+  },
+  "achievement-3.webp": {
+    "width": 208,
+    "height": 208
+  },
+  "achievement-3.avif": {
+    "width": 208,
+    "height": 208
+  },
+  "award-plaque.png": {
+    "width": 615,
+    "height": 645
+  },
+  "award-plaque.webp": {
+    "width": 615,
+    "height": 645
+  },
+  "award-plaque.avif": {
+    "width": 615,
+    "height": 645
+  },
+  "awards-section-reference.png": {
+    "width": 1024,
+    "height": 831
+  },
+  "awards-section-reference.webp": {
+    "width": 1024,
+    "height": 831
+  },
+  "awards-section-reference.avif": {
+    "width": 1024,
+    "height": 831
+  },
+  "b123.png": {
+    "width": 1252,
+    "height": 199
+  },
+  "b123.webp": {
+    "width": 1252,
+    "height": 199
+  },
+  "b123.avif": {
+    "width": 1252,
+    "height": 199
+  },
+  "b12a5.png": {
+    "width": 1488,
+    "height": 718
+  },
+  "b12a5.webp": {
+    "width": 1488,
+    "height": 718
+  },
+  "b12a5.avif": {
+    "width": 1488,
+    "height": 718
+  },
+  "b12a6.jpg": {
+    "width": 1600,
+    "height": 566
+  },
+  "b12a6.webp": {
+    "width": 1600,
+    "height": 566
+  },
+  "b12a6.avif": {
+    "width": 1600,
+    "height": 566
+  },
+  "b12a7.jpg": {
+    "width": 1431,
+    "height": 736
+  },
+  "b12a7.webp": {
+    "width": 1431,
+    "height": 736
+  },
+  "b12a7.avif": {
+    "width": 1431,
+    "height": 736
+  },
+  "bg123010.png": {
+    "width": 1516,
+    "height": 704
+  },
+  "bg123010.webp": {
+    "width": 1516,
+    "height": 704
+  },
+  "bg123010.avif": {
+    "width": 1516,
+    "height": 704
+  },
+  "bg123011.png": {
+    "width": 655,
+    "height": 381
+  },
+  "bg123011.webp": {
+    "width": 655,
+    "height": 381
+  },
+  "bg123011.avif": {
+    "width": 655,
+    "height": 381
+  },
+  "bg123012.png": {
+    "width": 2786,
+    "height": 127
+  },
+  "bg123012.webp": {
+    "width": 2786,
+    "height": 127
+  },
+  "bg123012.avif": {
+    "width": 2786,
+    "height": 127
+  },
+  "bg123013.png": {
+    "width": 1456,
+    "height": 731
+  },
+  "bg123013.webp": {
+    "width": 1456,
+    "height": 731
+  },
+  "bg123013.avif": {
+    "width": 1456,
+    "height": 731
+  },
+  "bg123014.png": {
+    "width": 1514,
+    "height": 704
+  },
+  "bg123014.webp": {
+    "width": 1514,
+    "height": 704
+  },
+  "bg123014.avif": {
+    "width": 1514,
+    "height": 704
+  },
+  "bg123015.png": {
+    "width": 500,
+    "height": 500
+  },
+  "bg123015.webp": {
+    "width": 500,
+    "height": 500
+  },
+  "bg123015.avif": {
+    "width": 500,
+    "height": 500
+  },
+  "brain-architecture.png": {
+    "width": 266,
+    "height": 266
+  },
+  "brain-architecture.webp": {
+    "width": 266,
+    "height": 266
+  },
+  "brain-architecture.avif": {
+    "width": 266,
+    "height": 266
+  },
+  "day1-womb.png": {
+    "width": 545,
+    "height": 671
+  },
+  "day1-womb.webp": {
+    "width": 545,
+    "height": 671
+  },
+  "day1-womb.avif": {
+    "width": 545,
+    "height": 671
+  },
+  "day2-baby.png": {
+    "width": 545,
+    "height": 671
+  },
+  "day2-baby.webp": {
+    "width": 545,
+    "height": 671
+  },
+  "day2-baby.avif": {
+    "width": 545,
+    "height": 671
+  },
+  "day3-strength.png": {
+    "width": 545,
+    "height": 671
+  },
+  "day3-strength.webp": {
+    "width": 545,
+    "height": 671
+  },
+  "day3-strength.avif": {
+    "width": 545,
+    "height": 671
+  },
+  "day4-baby-blue.png": {
+    "width": 829,
+    "height": 1043
+  },
+  "day4-baby-blue.webp": {
+    "width": 829,
+    "height": 1043
+  },
+  "day4-baby-blue.avif": {
+    "width": 829,
+    "height": 1043
+  },
+  "day5-strength-red.png": {
+    "width": 867,
+    "height": 1087
+  },
+  "day5-strength-red.webp": {
+    "width": 867,
+    "height": 1087
+  },
+  "day5-strength-red.avif": {
+    "width": 867,
+    "height": 1087
+  },
+  "full-layout-reference.png": {
+    "width": 812,
+    "height": 875
+  },
+  "full-layout-reference.webp": {
+    "width": 812,
+    "height": 875
+  },
+  "full-layout-reference.avif": {
+    "width": 812,
+    "height": 875
+  },
+  "golden-abilities.png": {
+    "width": 927,
+    "height": 532
+  },
+  "golden-abilities.webp": {
+    "width": 927,
+    "height": 532
+  },
+  "golden-abilities.avif": {
+    "width": 927,
+    "height": 532
+  },
+  "hero-card.png": {
+    "width": 1024,
+    "height": 682
+  },
+  "hero-card.webp": {
+    "width": 1024,
+    "height": 682
+  },
+  "hero-card.avif": {
+    "width": 1024,
+    "height": 682
+  },
+  "plan-step1.jpg": {
+    "width": 1024,
+    "height": 819
+  },
+  "plan-step1.webp": {
+    "width": 232,
+    "height": 170
+  },
+  "plan-step1.avif": {
+    "width": 232,
+    "height": 170
+  },
+  "plan-step1.png": {
+    "width": 232,
+    "height": 170
+  },
+  "plan-step2.jpg": {
+    "width": 320,
+    "height": 213
+  },
+  "plan-step2.webp": {
+    "width": 232,
+    "height": 170
+  },
+  "plan-step2.avif": {
+    "width": 232,
+    "height": 170
+  },
+  "plan-step2.png": {
+    "width": 232,
+    "height": 170
+  },
+  "plan-step3.jpg": {
+    "width": 320,
+    "height": 242
+  },
+  "plan-step3.webp": {
+    "width": 232,
+    "height": 170
+  },
+  "plan-step3.avif": {
+    "width": 232,
+    "height": 170
+  },
+  "plan-step3.png": {
+    "width": 232,
+    "height": 170
+  },
+  "pregnant-skateboarder.png": {
+    "width": 1024,
+    "height": 376
+  },
+  "pregnant-skateboarder.webp": {
+    "width": 1024,
+    "height": 376
+  },
+  "pregnant-skateboarder.avif": {
+    "width": 1024,
+    "height": 376
+  },
+  "price-badge.png": {
+    "width": 500,
+    "height": 500
+  },
+  "price-badge.webp": {
+    "width": 500,
+    "height": 500
+  },
+  "price-badge.avif": {
+    "width": 500,
+    "height": 500
+  },
+  "reviews-1.png": {
+    "width": 1826,
+    "height": 971
+  },
+  "reviews-1.webp": {
+    "width": 1826,
+    "height": 971
+  },
+  "reviews-1.avif": {
+    "width": 1826,
+    "height": 971
+  },
+  "reviews-2.png": {
+    "width": 1835,
+    "height": 1002
+  },
+  "reviews-2.webp": {
+    "width": 1835,
+    "height": 1002
+  },
+  "reviews-2.avif": {
+    "width": 1835,
+    "height": 1002
+  },
+  "stats-press-reference.png": {
+    "width": 1024,
+    "height": 305
+  },
+  "stats-press-reference.webp": {
+    "width": 1024,
+    "height": 305
+  },
+  "stats-press-reference.avif": {
+    "width": 1024,
+    "height": 305
+  },
+  "tools-infographic.png": {
+    "width": 800,
+    "height": 800
+  },
+  "tools-infographic.webp": {
+    "width": 800,
+    "height": 800
+  },
+  "tools-infographic.avif": {
+    "width": 800,
+    "height": 800
+  },
+  "whatsapp-gift.png": {
+    "width": 768,
+    "height": 768
+  },
+  "whatsapp-gift.webp": {
+    "width": 768,
+    "height": 768
+  },
+  "whatsapp-gift.avif": {
+    "width": 768,
+    "height": 768
+  },
+  "whisperingbrain.in_baby-workshop-1_ (2).png": {
+    "width": 2468,
+    "height": 5652
+  },
+  "whisperingbrain.in_baby-workshop-1_ (2).webp": {
+    "width": 2468,
+    "height": 5652
+  },
+  "whisperingbrain.in_baby-workshop-1_ (2).avif": {
+    "width": 2468,
+    "height": 5652
+  },
+  "why-circle1.png": {
+    "width": 160,
+    "height": 160
+  },
+  "why-circle1.webp": {
+    "width": 160,
+    "height": 160
+  },
+  "why-circle1.avif": {
+    "width": 160,
+    "height": 160
+  },
+  "why-circle2.png": {
+    "width": 160,
+    "height": 160
+  },
+  "why-circle2.webp": {
+    "width": 160,
+    "height": 160
+  },
+  "why-circle2.avif": {
+    "width": 160,
+    "height": 160
+  },
+  "why-circle3.png": {
+    "width": 160,
+    "height": 160
+  },
+  "why-circle3.webp": {
+    "width": 160,
+    "height": 160
+  },
+  "why-circle3.avif": {
+    "width": 160,
+    "height": 160
+  },
+  "why-circle4.png": {
+    "width": 160,
+    "height": 160
+  },
+  "why-circle4.webp": {
+    "width": 160,
+    "height": 160
+  },
+  "why-circle4.avif": {
+    "width": 160,
+    "height": 160
+  },
+  "why-icon1.png": {
+    "width": 125,
+    "height": 115
+  },
+  "why-icon1.webp": {
+    "width": 125,
+    "height": 115
+  },
+  "why-icon1.avif": {
+    "width": 125,
+    "height": 115
+  },
+  "why-icon2.png": {
+    "width": 125,
+    "height": 115
+  },
+  "why-icon2.webp": {
+    "width": 125,
+    "height": 115
+  },
+  "why-icon2.avif": {
+    "width": 125,
+    "height": 115
+  },
+  "why-icon3.png": {
+    "width": 125,
+    "height": 115
+  },
+  "why-icon3.webp": {
+    "width": 125,
+    "height": 115
+  },
+  "why-icon3.avif": {
+    "width": 125,
+    "height": 115
+  },
+  "why-icon4.png": {
+    "width": 125,
+    "height": 115
+  },
+  "why-icon4.webp": {
+    "width": 125,
+    "height": 115
+  },
+  "why-icon4.avif": {
+    "width": 125,
+    "height": 115
+  },
+  "why-icon5.png": {
+    "width": 125,
+    "height": 115
+  },
+  "why-icon5.webp": {
+    "width": 125,
+    "height": 115
+  },
+  "why-icon5.avif": {
+    "width": 125,
+    "height": 115
+  },
+  "why-star.png": {
+    "width": 210,
+    "height": 210
+  },
+  "why-star.webp": {
+    "width": 210,
+    "height": 210
+  },
+  "why-star.avif": {
+    "width": 210,
+    "height": 210
+  },
+  "Add-a-subheading-1536x768.webp": {
+    "width": 800,
+    "height": 400
+  },
+  "bgg12308.webp": {
+    "width": 800,
+    "height": 622
+  },
+  "gec-video-opt-poster.webp": {
+    "width": 1920,
+    "height": 1080
+  },
+  "gec-video-opt-poster.avif": {
+    "width": 1920,
+    "height": 1080
+  },
+  "gec-video-poster.webp": {
+    "width": 1920,
+    "height": 1080
+  },
+  "gec-video-poster.avif": {
+    "width": 1920,
+    "height": 1080
+  }
+}
