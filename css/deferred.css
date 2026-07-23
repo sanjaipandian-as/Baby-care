@@ -671,14 +671,19 @@
 @media (max-width: 992px) {
   .reviews-cards-grid {
     grid-template-columns: repeat(2, 1fr);
-    gap: 16px;
+    gap: 12px;
   }
 }
 
 @media (max-width: 576px) {
   .reviews-cards-grid {
-    grid-template-columns: 1fr;
-    gap: 16px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+
+  .reviews-yellow-wrapper {
+    padding: 16px 8px;
+    border-radius: 16px;
   }
 }
 
